@@ -1,10 +1,13 @@
-package fi.ithou.javacore.classes.step2;
+package fi.ithou.javacore.classes.step4;
 
-public class AncientCar extends AbstractCar {
+/* NOT ALLOWED:
+public class LeasingCar extends CarType, LeasingType {
+ */
+public class LeasingCar extends CarType {
 
     private double consumption;
 
-    public AncientCar(String model) {
+    public LeasingCar(String model) {
         super(model);
     }
 
@@ -24,4 +27,10 @@ public class AncientCar extends AbstractCar {
     public void setGasolineConsumption(double consumption) {
         this.consumption = consumption;
     }
+
+    /* NOT ALLOWED
+    @Override
+    public void getContract() {
+    */
 }
+

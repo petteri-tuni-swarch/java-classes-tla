@@ -11,13 +11,16 @@ public class App2 {
         System.out.println("Java Abstract Class example");
 
         AncientCar carA = new AncientCar("Ford Granada");
-        carA.setConsumption(9.7);
+        carA.setGasolineConsumption(9.7);
 
         ElectricCar carB = new ElectricCar("BMW i3");
-        carB.setConsumption(13.5);
+        carB.setElectricConsumption(13.5);
+
+        AbstractCar carC = new ElectricCar("T-Ford");
 
         System.out.println("Our garage:");
         System.out.println(carA.toString());
         System.out.println(carB.toString());
+        System.out.println(carC.toString());
     }
 }

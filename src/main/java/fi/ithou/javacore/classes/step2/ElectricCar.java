@@ -21,11 +21,7 @@ public class ElectricCar extends AbstractCar {
         return "kwh";
     }
 
-    public double getConsumption() {
-        return consumption;
-    }
-
-    public void setConsumption(double consumption) {
+    public void setElectricConsumption(double consumption) {
         this.consumption = consumption;
     }
 
