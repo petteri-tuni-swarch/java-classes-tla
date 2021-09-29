@@ -1,6 +1,6 @@
 package fi.ithou.javacore.classes.step3;
 
-public class Car3 {
+public class Car3 implements ModelInterface {
 
     private String model = null;
 

@@ -7,7 +7,7 @@ http://tutorials.jenkov.com/java/abstract-classes.html
 
 public class App2 {
     public static void main(String[] args) {
-        System.out.println("Hello. This is " + App2.class.toString());
+        System.out.println("Hello. This is " + App2.class);
         System.out.println("Java Abstract Class example");
 
         AncientCar carA = new AncientCar("Ford Granada");

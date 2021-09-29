@@ -7,7 +7,7 @@ http://tutorials.jenkov.com/java/classes.html
 
 public class App1 {
     public static void main(String[] args) {
-        System.out.println("Hello. This is " + App1.class.toString());
+        System.out.println("Hello. This is " + App1.class);
 
         Car1 carA = new Car1();
         Car1 carB = new Car1("Ford Ka");
